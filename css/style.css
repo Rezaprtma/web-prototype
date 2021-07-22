@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+}
+
+.jumbotron h1 {
+  font-family: FrizQuuBol;
+}
+
+#about {
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+.card:hover {
+  box-shadow: 0 0 17px #eee;
+  transition-delay: 0.2s;
+}
+
+.card-body {
+  background-color: #aeb0b6;
+}
+.card-text {
+  color: #fff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+.form-svg {
+  width: 100%;
+}
+
+#instagram,
+#github {
+  cursor: pointer;
+}
