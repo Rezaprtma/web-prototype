@@ -6,6 +6,7 @@
 
 .jumbotron {
   padding-top: 6rem;
+  margin-bottom: -15px;
 }
 
 .jumbotron h1 {
@@ -13,15 +14,17 @@
 }
 
 #about {
+  margin-bottom: -15px;
 }
 
 #projects {
   background-color: #e2edff;
+  margin-bottom: -15px;
 }
 
 .card:hover {
   box-shadow: 0 0 17px #eee;
-  transition-delay: 0.2s;
+  transition-delay: 0.1s;
 }
 
 .card-body {
@@ -30,9 +33,8 @@
 .card-text {
   color: #fff;
 }
-
-section {
-  padding-top: 5rem;
+#contact{
+  margin-bottom: -3px;
 }
 
 a {
