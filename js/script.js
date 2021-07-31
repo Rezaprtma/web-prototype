@@ -1,12 +1,12 @@
-// Pertanyaan
-var pertanyaan = prompt(" 1 + 1 = ...");
-var password = "2";
+// // Pertanyaan
+// var pertanyaan = prompt(" 1 + 1 = ...");
+// var password = "2";
 
-if (pertanyaan == password) {
-  ("");
-} else {
-  close();
-}
+// if (pertanyaan == password) {
+//   ("");
+// } else {
+//   close();
+// }
 
 // Link Instagram
 var instagram = document.getElementById("instagram").addEventListener("click", tampilkanAlertInstagram);
