@@ -11,14 +11,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <title>My Portfolio | Reza</title>
   </head>
   <body id="home">
+
+    <div class="loader">Loading...</div>
+    
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top" style="background-color: #45415e">
       <div class="container">
-        <a class="navbar-brand" href="#home">Reza</a>
+        <a class="navbar-brand" href="#">Reza</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,7 +42,7 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center" style="background-color: #dde2e3">
       <img src="img/hero.jpg" alt="Reza" width="200px" style="border: 6px solid #5c6272; border-radius: 50%; box-shadow: 0 0 10px 3px #9aacb8" class="" />
-      <h1 class="display-4">Novian Reza Pratama</h1>
+      <h1 class="display-4">Novian Reza</h1>
       <p class="lead">Student Lampung</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -58,7 +63,10 @@
           </div>
           <div class="row justify-content-center fs-5 text-center" style="color: rgb(214, 214, 214)">
             <div class="col-md-5 mb-1">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima asperiores consectetur architecto tenetur doloribus blanditiis reiciendis nam inventore dolore, atque maxime quas pariatur, ex quae, aliquid eligendi. Dicta, fugit minus.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima asperiores consectetur architecto tenetur doloribus blanditiis reiciendis nam inventore dolore, atque maxime quas pariatur, ex quae, aliquid eligendi. Dicta,
+                fugit minus.
+              </p>
             </div>
             <div class="col-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi reprehenderit dolor dolores totam modi nihil id nostrum explicabo, quae excepturi blanditiis. Unde, deserunt optio reiciendis cum.</div>
           </div>
@@ -181,14 +189,14 @@
         </div>
       </div>
       <svg style="background-color: #3c455c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#2f3441"
-        fill-opacity="1"
-        d="M0,160L40,133.3C80,107,160,53,240,58.7C320,64,400,128,480,160C560,192,640,192,720,170.7C800,149,880,107,960,117.3C1040,128,1120,192,1200,218.7C1280,245,1360,235,1400,229.3L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-      ></path>
-    </svg>
+        <path
+          fill="#2f3441"
+          fill-opacity="1"
+          d="M0,160L40,133.3C80,107,160,53,240,58.7C320,64,400,128,480,160C560,192,640,192,720,170.7C800,149,880,107,960,117.3C1040,128,1120,192,1200,218.7C1280,245,1360,235,1400,229.3L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
     </section>
-    
+
     <!-- Akhir Contact -->
 
     <!-- footer -->
@@ -230,6 +238,9 @@
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+      $(document).ready(function () {
+        $(".loader").hide();
       });
     </script>
   </body>
