@@ -47,7 +47,13 @@ a {
 #instagram,
 #github {
   cursor: pointer;
-} 
+}
+
+
+body {
+  background: #28324e;
+}
+
 
 /*loader*/
 .loader,
