@@ -1,3 +1,8 @@
+@font-face{
+  font-family: "YujiSyuku";
+  src: url(font/YujiSyuku-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,17 +14,19 @@
   margin-bottom: -15px;
 }
 
-.jumbotron h1 {
-  font-family: FrizQuuBol;
+h1, h2 {
+  font-family: YujiSyuku, serif, sans-serif;
 }
 
 #about {
   margin-bottom: -15px;
+  padding-top: 60px;
 }
 
 #projects {
   background-color: #e2edff;
   margin-bottom: -15px;
+  padding-top: 60px;
 }
 
 .card:hover {
@@ -34,7 +41,8 @@
   color: #fff;
 }
 #contact{
-  margin-bottom: -3px;s
+  margin-bottom: -3px;
+  padding-top: 60px;
 }
 
 a {
