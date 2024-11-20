@@ -5,7 +5,7 @@ var instagram = document.getElementById("instagram").addEventListener("click", t
 function tampilkanAlertInstagram() {
   var tes = confirm("Anda yakin ingin mengunjungi instagram?");
   if (tes) {
-    window.open("https://instagram.com/pendiam__", "_blank");
+    window.open("https://www.instagram.com/nopian_rz/", "_blank");
   } else {
     getElementById("home");
   }
